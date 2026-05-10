@@ -1,0 +1,20 @@
+#重要！！！
+开GPS
+
+开python 文件
+nano Collect_RSSI_Mobile.py
+
+执行python
+python Collect_RSSI_Mobile.py
+
+将csv share到WhatsApp
+termux-share /sdcard/Download/wifi_data_v2.csv
+
+删掉csv
+rm /sdcard/Download/wifi_data_v2.csv
+
+清空python 文件里的内容
+> Collect_RSSI_Mobile.py
+
+检查文件是否存在
+ls /sdcard/Download/
